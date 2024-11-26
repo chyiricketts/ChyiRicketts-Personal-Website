@@ -1,0 +1,86 @@
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%
+    }
+}
+
+/* General Design */
+
+/* Resetting html and body defaults so it reaches the edges
+Found this method searching online. */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header{
+    height: 15%;
+    background-color: lavender;
+}
+
+main{
+    background-color: blanchedalmond;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: lavender;
+    text-align: center;
+    height: 15%
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    background-color: rgb(147, 147, 252);
+    border-radius: 50%;
+}
+
+.navbar #return a:hover{
+    background-color: rgb(226, 168, 175);
+}
+
+
+/* Body */
+h1, h2{
+    text-align: center;
+}
+
+#center_img{
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+p{
+    text-align: center;
+}
